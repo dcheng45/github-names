@@ -8,12 +8,12 @@ Java program to connect to specified GitHub organization and check for members t
 - Maven 3
 - Administrative account for a Github organization
 - Account created in Amazon IAM with AmazonS3FullAccess and AWSConnected policies
-- Amazon credentials stored in recommended location 
-    Linux/Unix - ~/.aws/credentials
-    Windows - C:\Users\USERNAME\.aws\credentials
+- Amazon credentials stored in recommended location
+    - Linux/Unix - ~/.aws/credentials
+    - Windows - C:\Users\USERNAME\.aws\credentials
 
 ## Program Properties
-This requires a properties files as a program argument. A templateThe properties file "app.properties" can be found at the root of project directory. All values are required.
+This program requires a properties files as a program argument. A templateThe properties file "app.properties" can be found at the root of project directory. All values are required.
 
 ## Build with Maven
 mvn clean verify package
